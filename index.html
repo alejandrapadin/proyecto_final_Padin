@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Calculadora de Índice de Masa Muscular</title>
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h1 class="title">¡Calculemos tu índice de masa muscular!</h1>
+    <p class="paragraph">El índice de masa corporal (IMC) es un número que se calcula con base en el peso y la estatura
+      de la persona. Para la mayoría de las personas, el IMC es un indicador confiable de la gordura y se usa para
+      identificar las categorías de peso que pueden llevar a problemas de salud. ¡Veamos cómo estás!</p>
+    <form id="imcForm">
+      <div class="mb-3">
+        <label for="weight" class="form-label">Ingresá tu peso (kg):</label>
+        <input type="number" class="form-control" id="weight" required>
+      </div>
+      <div class="mb-3">
+        <label for="height" class="form-label">Ingresá tu altura (cm):</label>
+        <input type="number" class="form-control" id="height" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Calcular</button>
+    </form>
+
+    <!-- Resultados del cálculo -->
+    <div id="result" class="mt-3 white-text"></div>
+
+    <!-- Historial -->
+    <div class="mt-5">
+      <h3>Historial de Resultados:</h3>
+      <ul id="history" class="list-group mt-3" style="display: flex; flex-direction: column;"></ul>
+      <button id="clearHistoryButton" class="btn btn-danger mt-3">Limpiar Historial</button>
+    </div>
+  </div>
+
+  <!-- Enlace al archivo script.js -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+body{
+  background-color:  rgb(242, 208, 255);
+}
+
+.title{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+font-weight: bold;
+}
+
+.paragraph{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-label{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn.btn-primary {
+  /* Agrega aquí las propiedades CSS que deseas aplicar */
+  background-color: #b740db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Estilo para el botón cuando se coloca el cursor sobre él */
+.btn.btn-primary:hover {
+  background-color: #9c07af;
+}
+
+/* Estilo para el botón cuando se presiona */
+.btn.btn-primary:active {
+  background-color: #680696;
+}
+
+.btn.btn-danger.mt-3 {
+  background-color: #894ceb;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+
+.btn.btn-danger.mt-3:hover {
+  background-color: #7815d4;
+}
+
+.btn.btn-danger.mt-3:active {
+  background-color: #8608b8;
+}
